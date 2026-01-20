@@ -7,7 +7,7 @@ def play_game_3(n_lives=10):
     print("Welcome to Game 3: Hangman!")
     print(f"You have {n_lives} lives to try to guess the secret word!")
 
-    with open("words.txt") as f:
+    with open("workshop1-25-26-ds926extr/words.txt") as f:
         wordlist = f.read().splitlines()
 
     word = random.choice(wordlist)
